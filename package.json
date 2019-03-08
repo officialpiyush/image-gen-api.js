@@ -11,6 +11,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "eslint": "^5.15.1",
     "request": "^2.88.0"
   }
 }

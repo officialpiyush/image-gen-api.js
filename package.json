@@ -1,0 +1,16 @@
+{
+  "name": "image-gen-api.js",
+  "version": "0.1.0",
+  "description": "An API wrapper in NodeJS for https://github.com/ionadev/image-gen-api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint ./"
+  },
+  "repository": "https://github.com/ionadev/image-gen-api.js.git",
+  "author": "Piyush Bhangale <bhangalepiyush@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

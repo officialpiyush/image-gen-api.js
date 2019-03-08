@@ -18,8 +18,15 @@ class Client {
     this.options = options;
   }
 async getOptions(data = {}) {
-    
+  if(!data.url) data.url = null;
+  let JSONArray = [];
+      if(data.url) JSONArray.push("url", data.url);
+    let options = { //eslint-disable-line
+      method:'get',
+      url: `${this.baseURl}/${data.endpoint}`,
+      json: JSONArray.join(",")
   }
-}
+    }
+  }
 
 module.exports = Client;

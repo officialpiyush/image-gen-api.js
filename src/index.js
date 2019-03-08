@@ -1,6 +1,5 @@
-/* eslint-disable */
 module.exports = {
-  Client = require("./structures/Client"), // eslint-disable-line
-  APIClient = require("./structures/Client")
+  Client: require("./structures/Client"),
+  APIClient: require("./structures/Client")
 
 }
